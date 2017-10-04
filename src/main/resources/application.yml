@@ -1,7 +1,7 @@
 security:
   basic:
     enabled: false
-spring:
-  cloud:
-    services:
-      registrationMethod: direct
+#spring:
+#  cloud:
+#    services:
+#      registrationMethod: router
