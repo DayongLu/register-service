@@ -1,6 +1,6 @@
 spring:
-  cloud:
-    config:
-      uri: http://config-server.local.pcfdev.io
+#  cloud:
+#    config:
+#      uri: http://config-server.local.pcfdev.io
   application:
     name: register-service
