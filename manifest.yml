@@ -3,3 +3,12 @@ applications:
 - name: register-service
   memory: 1024M
   instances: 1
+  env:
+    logging.level.ROOT: INFO
+    spring.application.name: register-service
+    spring.application.index: ${random.uuid}
+    management.security.enabled: false
+
+  services:
+    - esoa-config
+    - paradyme-registry-service
